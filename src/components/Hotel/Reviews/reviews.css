@@ -1,0 +1,26 @@
+/*-----------------------------*\
+ * UI Colours
+ *-----------------------------*/
+/**
+* Main Colours
+*/
+.reviews__wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 36px;
+  padding-bottom: 100px; }
+  @media (max-width: 768px) {
+    .reviews__wrapper {
+      grid-template-columns: 1fr; } }
+
+.reviews__block {
+  height: 170px;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center; }
+  @media (max-width: 768px) {
+    .reviews__block {
+      margin-bottom: 24px; } }

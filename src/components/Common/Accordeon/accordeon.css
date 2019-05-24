@@ -1,0 +1,42 @@
+/*-----------------------------*\
+ * UI Colours
+ *-----------------------------*/
+/**
+* Main Colours
+*/
+.accordeon {
+  height: auto; }
+  .accordeon__tab {
+    height: 600px; }
+    @media (max-width: 768px) {
+      .accordeon__tab {
+        height: 400px; } }
+    .accordeon__tab-image {
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 100%;
+      width: 100%; }
+  .accordeon .card {
+    border-radius: 0;
+    border: 0;
+    transition: all .2s ease; }
+  .accordeon .card-header {
+    transition: all .2s ease;
+    background-color: #202121;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    text-align: center;
+    min-height: 100px;
+    padding: 18px 36px;
+    margin-bottom: 0 !important;
+    cursor: pointer;
+    border-left: 1px solid #8F8F8F;
+    border-right: 1px solid #8F8F8F;
+    border-bottom: 1px solid #8F8F8F; }
+    .accordeon .card-header--active {
+      background-color: #8C816B; }
+  .accordeon .card-body {
+    padding: 0;
+    background-color: #BB8877; }

@@ -1,0 +1,59 @@
+@import './colours';
+@import './transitions';
+
+.button {
+  color: $white;
+  font-size: 14px;
+  transition: $slight-transition;
+  text-transform: uppercase;
+  line-height: 1;
+  font-weight: 600;
+  letter-spacing: 2px;
+  white-space: nowrap;
+
+  &.arabic-sans {
+    font-size: 17px;
+  }
+
+  &:focus,
+  &:active {
+    outline: none;
+  }
+
+  &--primary {
+    padding: 15px 20px;
+    background-color: $gold;
+    border: 2px solid $gold;
+    color: $white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 600;
+    width: 100%;
+
+    &:hover {
+      color: $gold;
+      background-color: $gold--light;
+      border: 2px solid $gold--light;
+    }
+
+    @media (max-width: 768px) {
+      padding: 12px 20px;
+    }
+    
+    @media (max-width: 576px) {
+      padding: 12px 20px;
+    }
+  }
+
+  &--secondary {
+    padding: 12px 21px;
+    border: 1px solid $white;
+    background-color: transparent;
+    color: $white;
+
+    &:hover {
+      color: $white;
+      background-color: $white--light;
+    }
+  }
+}

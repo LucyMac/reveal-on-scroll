@@ -1,0 +1,30 @@
+@import '../../../styles/global/colours';
+
+.reviews {
+
+  &__wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 36px;
+    padding-bottom: 100px;
+
+    @media (max-width: 768px) {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  &__block {
+    height: 170px;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    @media (max-width: 768px) {
+      margin-bottom: 24px;
+    }
+  }
+
+}

@@ -1,0 +1,51 @@
+@import '../../../styles/global/colours';
+
+@import './CarouselContained/carouselContained.scss';
+@import './CarouselFluid/carouselFluid.scss';
+
+.carousel {
+  margin-bottom: 40px;
+
+  img {
+    background-color: $gold;
+    height: 500px; // TODO tEMPORARY?
+
+    @media (max-width: 1200px) {
+      height: 450px;
+    }
+
+    @media (max-width: 992px) {
+      height: 400px;
+    }
+
+    @media (max-width: 768px) {
+      height: 350px;
+    }
+
+    @media (max-width: 576px) {
+      height: 250px;
+    }
+  }
+  
+  &-indicators {
+    display: none;
+  }
+  
+  &-control-prev {
+    right: -110px;
+  }
+  
+  &-control-next {
+    right: -190px;
+  }
+  
+  &-control-prev,
+  &-control-next {
+    bottom: 10px;
+    top: auto;
+    left: auto;
+  
+    display: none; // TODO sort this
+  }
+}
+

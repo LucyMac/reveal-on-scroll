@@ -1,0 +1,34 @@
+{
+  "id": 122,
+  "companyName": "Amazon",
+  "warehouses": [
+    {
+      "id": 13,
+      "name": "Wrexham"
+    },
+    {
+      "id": 14,
+      "name": "Coleshill"
+    },
+    {
+      "id": 15,
+      "name": "Riverside"
+    }
+  ],
+  "status": 1,
+  "email": "janet@amazon.com",
+  "phone": "02827459902",
+  "website": "amazon.com",
+  "parentCompany": "Amazon Inc.",
+  "headOffice": {
+    "address1": "123 Hackney Road",
+    "address2": "London",
+    "city": "Greater London",
+    "county": null,
+    "postcode": "E2 7AP"
+  },
+  "hasAdminPortalAccess": true,
+  "hasResourcingPortalAccess": false,
+  "createdAt": "2019-02-17T03:24:00",
+  "updatedAt": "2019-02-18T09:33:00"
+}

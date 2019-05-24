@@ -1,0 +1,26 @@
+@import '../../../styles/global/colours';
+
+//  Carousel
+//  TODO: Move to carousel-specific file?
+
+.promo-wrapper {
+
+}
+.booking-form {
+  display: grid;
+  grid-template-columns: 2fr 2fr 1fr 1fr;
+  column-gap: 36px;
+
+  @media (max-width: 768px) {
+    display: none;
+  }
+
+  &__field {
+    border-bottom: 1px solid $white;
+    height: 50px;
+    width: 100%;
+  }
+
+  &__field-block {
+  }
+}

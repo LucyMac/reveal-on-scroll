@@ -1,0 +1,95 @@
+{
+  "regions": [
+    {
+      "Asia": [
+        {
+          "China": [
+            {
+              "Guangzhou": [
+                "Living Guangzhou"
+              ]
+            }, {
+              "Shanghai": [
+                "Himalayas Hotel"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Europe": [
+        {
+          "United Kingdom": [
+            {
+              "London": [
+                "Grosvenor House Suites, by Living",
+                "Carlton Tower",
+                "Lowndes Hotel"
+              ]
+            }
+          ]
+        }, 
+        {
+          "Germany": [
+            {
+              "Frankfurt": [
+                "Frankfurt"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Middle East": [
+        {
+          "Dubai": [
+            {
+              "Beach": [
+                "Al Qasr, Madinat",
+                "Al Naseem, Madinat",
+                "Dar Al Masyaf, Madinat",
+                "Mina A'Salam, Madinat"
+              ]
+            }, {
+              "Palm": [
+                "Zabeel Saray",
+                "Zabeel Saray - Royal Residences"
+              ]
+              }, {
+              "City": [
+                "Creekside Hotel",
+                "Emirates Towers",
+                "Living World Trade Centre Residence"
+              ]
+              }, {
+              "Attractions": [
+                "Wild Wadi Waterpark"
+              ]
+            }
+          ]
+        }, {
+          "Abu Dhabi": [
+            {
+              "Abu Dhabi": [
+                "Hotel Etihad Towers",
+                "Hotel Etihad Towers - Residences",
+                "Hotel Saadiyat Island Resort",
+                "Al Wathba Desert Resort & Spa"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "events": [
+    "Weddings",
+    "Meetings",
+    "Corporate catering"
+  ],
+  "loyalty": [
+    "Sirius"
+  ]
+}

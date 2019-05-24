@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="19px" viewBox="0 0 20 19" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>Search Icon</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Header/Home" transform="translate(-949.000000, -18.000000)" stroke="rgba(255,255,255, 0.5)">
+            <g id="Search-Bar-Copy" transform="translate(930.000000, 5.000000)">
+                <g id="Search-Icon" transform="translate(18.000000, 11.000000)">
+                    <g transform="translate(11.875000, 12.350000) rotate(-45.000000) translate(-11.875000, -12.350000) translate(5.700000, 1.900000)">
+                        <circle id="Oval" stroke-width="1.9" cx="6.175" cy="6.175" r="6.175"></circle>
+                        <path d="M6.175,12.825 L6.175,20.610185" id="Line-3-Copy" stroke-width="1.9" stroke-linecap="square"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

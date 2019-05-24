@@ -1,0 +1,49 @@
+/*-----------------------------*\
+ * UI Colours
+ *-----------------------------*/
+/**
+* Main Colours
+*/
+.highlights__feature {
+  height: 600px; }
+  .highlights__feature-image {
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%; }
+  .highlights__feature-tabs {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    min-height: 170px;
+    border: 1px solid #8F8F8F;
+    border-top: 0; }
+    @media (max-width: 992px) {
+      .highlights__feature-tabs {
+        grid-template-columns: 1fr 1fr; } }
+    @media (max-width: 768px) {
+      .highlights__feature-tabs {
+        grid-template-columns: 1fr; } }
+  .highlights__feature-tab {
+    width: 25%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    min-height: 100px;
+    padding: 0 18px;
+    -webkit-box-shadow: inset 0px 26px 36px -15px rgba(32, 33, 33, 0.5);
+    -moz-box-shadow: inset 0px 26px 36px -15px rgba(32, 33, 33, 0.5);
+    box-shadow: inset 0px 26px 36px -15px rgba(32, 33, 33, 0.5);
+    margin: 10px 0;
+    border-right: 1px solid grey; }
+    .highlights__feature-tab--active {
+      background-color: #8C816B;
+      border: 0;
+      margin: 0; }
+    .highlights__feature-tab--first {
+      border-left: 0; }
+    .highlights__feature-tab--last {
+      border-right: 0; }
+    .highlights__feature-tab h4 {
+      line-height: 1.1; }

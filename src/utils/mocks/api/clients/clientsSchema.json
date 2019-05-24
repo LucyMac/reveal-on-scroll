@@ -1,0 +1,86 @@
+[
+  {
+    "id": 120,
+    "companyName": "DHL",
+    "warehouses": [
+      {
+        "id": 11,
+        "name": "CP2"
+      },
+      {
+        "id": 12,
+        "name": "Colnbrook"
+      },
+      {
+        "id": 13,
+        "name": "Wrexham"
+      },
+      {
+        "id": 14,
+        "name": "Coleshill"
+      },
+      {
+        "id": 15,
+        "name": "Riverside"
+      },
+      {
+        "id": 16,
+        "name": "Tolston"
+      },
+      {
+        "id": 17,
+        "name": "Leeds"
+      }
+    ],
+    "status": 1
+  },
+  {
+    "id": 121,
+    "companyName": "UPS",
+    "warehouses": [
+      {
+        "id": 12,
+        "name": "Colnbrook"
+      }
+    ],
+    "status": 0
+  },
+  {
+    "id": 122,
+    "companyName": "Amazon",
+    "warehouses": [
+      {
+        "id": 13,
+        "name": "Wrexham"
+      },
+      {
+        "id": 14,
+        "name": "Coleshill"
+      },
+      {
+        "id": 15,
+        "name": "Riverside"
+      }
+    ],
+    "status": 1
+  },
+  {
+    "id": 123,
+    "companyName": "ABC",
+    "warehouses": [
+      {
+        "id": 13,
+        "name": "Wrexham"
+      },
+      {
+        "id": 14,
+        "name": "Coleshill"
+      },
+      {
+        "id": 15,
+        "name": "Riverside"
+      }
+    ],
+    "status": 2
+  }
+]

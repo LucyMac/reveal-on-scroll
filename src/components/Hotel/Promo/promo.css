@@ -1,0 +1,17 @@
+/*-----------------------------*\
+ * UI Colours
+ *-----------------------------*/
+/**
+* Main Colours
+*/
+.booking-form {
+  display: grid;
+  grid-template-columns: 2fr 2fr 1fr 1fr;
+  column-gap: 36px; }
+  @media (max-width: 768px) {
+    .booking-form {
+      display: none; } }
+  .booking-form__field {
+    border-bottom: 1px solid #FFFFFF;
+    height: 50px;
+    width: 100%; }

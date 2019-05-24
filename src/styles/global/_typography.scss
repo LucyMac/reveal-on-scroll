@@ -1,0 +1,35 @@
+
+// headers
+
+h1, h2, h3, h4 {
+  font-family: 'TFArrow', Georgia, serif;
+  margin: 0;
+}
+
+h5, h6 {
+  font-family: 'Gilroy', Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+p, li, a {
+  margin: 0;
+  padding: 0;
+}
+
+// Cursive TFArrow
+.h1, .page-header {
+  margin: 0;
+  font-size: 100px;
+  letter-spacing: 2.3px;
+  font-weight: 500;
+  line-height: 1;
+}
+
+
+// Sans-serif Gilroy
+.h6 {
+  font-size: 14px;
+  letter-spacing: 3px;
+  font-weight: 500;
+}

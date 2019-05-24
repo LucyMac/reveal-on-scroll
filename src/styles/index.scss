@@ -1,0 +1,79 @@
+@import "custom-grid";
+@import "./boostrap/scss/bootstrap-grid.scss";
+
+//  global styles
+@import './global/buttons';
+@import './global/colours';
+@import './global/transitions';
+@import './global/typography';
+
+// // Component styles
+@import '../components/Common/Accordeon/accordeon.scss';
+@import '../components/Common/Carousel/carousel.scss'; // uncomment individual carousels within main carousel.scss
+@import '../components/Common/Header/header.scss';
+@import '../components/Common/Header/sectionHeader.scss';
+@import '../components/Common/Navigation/nav.scss';
+@import '../components/Common/Slider/SliderHero/sliderHero.scss';
+@import '../components/Common/Slider/SliderMulti/sliderMulti.scss';
+@import '../components/Common/Slider/SliderThumbnails/sliderThumbnails.scss';
+@import '../components/Common/Tabs/tabs.scss';
+
+//  Hotel styles
+@import '../components/Hotel/Activities/activities.scss';
+@import '../components/Hotel/Hero/hero.scss';
+@import '../components/Hotel/Highlights/highlights.scss';
+@import '../components/Hotel/Promo/promo.scss';
+@import '../components/Hotel/Reviews/reviews.scss';
+
+
+/*-----------------------------*\
+ * Global
+ *-----------------------------*/
+#root {
+  box-sizing: border-box;
+}
+
+// body copy
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: 100%;
+  font-family: 'Gilroy', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  background-color: $black;
+  color: $white;
+}
+
+ul {
+  padding-left: 0;
+  list-style: none;
+  margin-bottom: 0;
+}
+
+
+// links
+
+a {
+  text-decoration: none;
+}
+
+.mobile--no-padding {
+  @media (max-width: 768px) {
+    padding: 0;
+  }
+}
+
+.rtl { 
+  text-align: right;
+  direction: rtl;
+}
+
+.arabic-cursive {
+  font-family: 'Markazi Text', Georgia, serif;
+}
+
+.arabic-sans {
+  font-family: 'Cairo', Helvetica, Arial, sans-serif;
+}

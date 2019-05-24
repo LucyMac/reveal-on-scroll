@@ -1,0 +1,135 @@
+@import '../../../../styles/global/colours';
+
+
+.slider--multi {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+
+  .slick-slider {
+    // padding-bottom: 150px;
+    width: 120vw;
+
+    @media (max-width: 768px) {
+      width: 130vw;
+    // padding-bottom: 120px;
+    }
+
+    @media (max-width: 576px) {
+      width: 150vw;
+      // padding-bottom: 100px;
+    }
+  }
+
+  .slick-track {
+    height: 100%;
+    display: flex;
+  }
+  
+  .slick-slide {
+    display: flex !important;
+    min-height: 100% !important;
+  }
+
+  &__slide {
+    padding: 0 18px;
+    border-right: 1px solid $grey;
+    display: flex !important;
+    height: 100%;
+  }
+
+  &__slide-wrapper {
+    display: flex;
+    flex-direction: column;
+
+    @media (max-width: 576px) {
+      filter: opacity(50%);
+      transition: all .4s ease;
+    }
+  }
+
+  &__copy {
+    height: 300px;
+
+    @media (max-width: 768px) {
+      height: 300px;
+    }
+  }
+
+  &__image {
+    width: 100%;
+    height: 100%;
+    padding-top: 100%;
+    background-color: $gold;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    @media (max-width: 768px) {
+      padding-top: 56.25%;
+    }
+
+    &--red {
+      background-color: $sandal;
+    }
+    
+    &--blue {
+      background-color: $cornflower;
+    }
+    
+    &--light{
+      background-color: $gold--light;
+    }
+  }
+
+  .slick-current {
+    transition: all .4s ease;
+
+    .slider--multi__slide {
+      border-left: 1px solid $grey;
+    }
+
+    .slider--multi__slide-wrapper {
+      @media (max-width: 768px) {
+        filter: none;
+      }
+    }
+
+    .slider--multi__image {
+      -webkit-box-shadow: inset -2px -28px 40px 22px #20212196;
+      -moz-box-shadow: inset -2px -28px 40px 22px #20212196;
+      box-shadow: inset -2px -28px 40px 22px #20212196;
+    }
+
+    .slider--multi__copy {
+
+      .button--primary {
+        height: fit-content;
+        align-self: flex-end;
+      }
+    }
+  }
+
+
+  .slick-arrow {
+    display: none !important;
+  }
+
+  .carousel__arrow-next,
+  .carousel__arrow-prev {
+    height: 44px;
+    width: 44px;
+    background-repeat: no-repeat;
+    position: absolute;
+    bottom: 0;
+    cursor: pointer;
+
+    @media (max-width: 768px) {
+      top: 20%;
+    }
+
+    @media (max-width: 576px) {
+      top: 15%;
+    }
+  }
+
+}

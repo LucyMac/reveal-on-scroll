@@ -1,0 +1,59 @@
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  namespace: default
+  name: boilerplate
+spec:
+  replicas: 1
+  revisionHistoryLimit: 2
+  minReadySeconds: 5
+  strategy:
+    type: RollingUpdate
+    rollingUpdate:
+      maxUnavailable: 50%
+      maxSurge: 1
+  template:
+    metadata:
+      creationTimestamp: null
+      labels:
+        service: boilerplate
+    spec:
+      imagePullSecrets:
+        - name: shift3g
+      containers:
+        - env:
+            - name: NODE_ENV
+              value: production
+            - name: SERVER_PORT
+              value: "8080"
+          image: shift3g.azurecr.io/boilerplate:${BUILD_VERSION}
+          name: boilerplate
+          ports:
+            - containerPort: 8080
+          stdin: true
+          tty: true
+          resources:
+            requests:
+              memory: 64Mi
+              cpu: 32m
+            limits:
+              memory: 256Mi
+              cpu: 100m
+      restartPolicy: Always
+status: {}
+---
+# Horizontal Pod Autoscaling
+apiVersion: autoscaling/v1
+kind: HorizontalPodAutoscaler
+metadata:
+  namespace: default
+  name: boilerplate-autoscaler
+spec:
+  scaleTargetRef:
+    apiVersion: extensions/v1beta1
+    kind: Deployment
+    name: boilerplate
+  minReplicas: 1
+  maxReplicas: 6
+  targetCPUUtilizationPercentage: 70

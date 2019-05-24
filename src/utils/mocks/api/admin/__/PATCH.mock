@@ -1,0 +1,16 @@
+HTTP/1.1 200 OK
+Content-Type: text/xml; charset=utf-8
+Access-Control-Allow-Origin: http://localhost:3000
+Access-Control-Allow-Methods: OPTIONS, PATCH
+Access-Control-Allow-Headers: Content-Type, Authorization
+
+{
+  "admin": {
+    "id": 1,
+    "firstName": "Richard",
+    "lastName": "Branston",
+    "email": "richard@ban.com",
+    "phone": "01234567890",
+    "adminTypeId": "999999"
+  }
+}

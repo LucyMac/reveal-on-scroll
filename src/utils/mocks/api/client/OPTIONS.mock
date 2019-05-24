@@ -1,0 +1,4 @@
+HTTP/1.1 200 OK
+Access-Control-Allow-Origin:  http://localhost:3000
+Access-Control-Allow-Methods: POST, PATCH
+Access-Control-Allow-Headers: Content-Type, Authorization

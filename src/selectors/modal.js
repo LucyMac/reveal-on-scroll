@@ -1,0 +1,1 @@
+export const isModalVisible = (state, type='confirm') => state.modal[type].isVisible;

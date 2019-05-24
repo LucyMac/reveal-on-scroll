@@ -1,0 +1,1 @@
+export const getPaginationItems = (state, entity) => state[entity].pagination;
