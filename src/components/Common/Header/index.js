@@ -20,7 +20,7 @@ import {
 import globalDataEN from "./global-nav-EN.json";
 import globalDataAR from "./global-nav-AR.json";
 
-import logo from "../../../img/jumeirah-logo.png";
+import logo from "../../../img/logo-placeholder.png";
 import closeIcon from "../../../img/icons/close.svg";
 import openIcon from "../../../img/icons/hamburger.svg";
 import searchIcon from "../../../img/icons/search.svg";
@@ -134,7 +134,7 @@ class Header extends React.Component {
                   </div>
                   :
                   <div className="header__logo">
-                    <img src={logo} alt="Jumeirah logo" />
+                    <img src={logo} alt="logo" />
                   </div>
                 }
 

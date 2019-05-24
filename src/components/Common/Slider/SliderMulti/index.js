@@ -61,7 +61,7 @@ class SliderMulti extends React.Component {
   
             <div className="slider--multi__copy pt-5">
               <H4 className="slider--multi__image-subheader pb-5">Souk Medinat Tour</H4>
-              <Text weight="light" className="pb-5">The spirit of the traditional Arabian souk survives at Madinat Jumeirah.</Text>
+              <Text weight="light" className="pb-5">The spirit of the traditional Arabian souk survives at Madinat.</Text>
               <MoreLink className="pb-5" lang={lang === 'AR' ? 'arabic' : undefined}>View details</MoreLink>
               <button className="button button--secondary">Book this tour</button>
             </div>
@@ -106,7 +106,7 @@ class SliderMulti extends React.Component {
   
             <div className="slider--multi__copy pt-5">
               <H4 className="slider--multi__image-subheader pb-5">Souk Medinat Tour</H4>
-              <Text weight="light" className="pb-5">The spirit of the traditional Arabian souk survives at Madinat Jumeirah.</Text>
+              <Text weight="light" className="pb-5">The spirit of the traditional Arabian souk survives at Madinat.</Text>
               <MoreLink className="pb-5" lang={lang === 'AR' ? 'arabic' : undefined}>View details</MoreLink>
               <button className="button button--secondary">Book this tour</button>
             </div>
@@ -121,7 +121,7 @@ class SliderMulti extends React.Component {
   
             <div className="slider--multi__copy pt-5">
               <H4 className="slider--multi__image-subheader pb-5">Souk Medinat Tour</H4>
-              <Text weight="light" className="pb-5">The spirit of the traditional Arabian souk survives at Madinat Jumeirah.</Text>
+              <Text weight="light" className="pb-5">The spirit of the traditional Arabian souk survives at Madinat.</Text>
               <MoreLink className="pb-5" lang={lang === 'AR' ? 'arabic' : undefined}>View details</MoreLink>
               <button className="button button--secondary">Book this tour</button>
             </div>

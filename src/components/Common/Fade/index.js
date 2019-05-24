@@ -2,14 +2,6 @@ import React from "react";
 import styled from 'styled-components';
 import { Controller, Scene } from 'react-scrollmagic';
 import { Tween, Timeline } from 'react-gsap';
-import { Container, Row, Col } from "react-bootstrap";
-
-import Module from "../Module";
-import Background from "../Background";
-import Hero from "../../Hotel/Hero";
-
-import backgroundImg from "../../../img/hotel_detail_hero.png";
-import dubai from "../../../img/dubai-iconic.jpg";
 
 const FadeStyled = styled.div`
   .section {
@@ -19,13 +11,11 @@ const FadeStyled = styled.div`
   .fade__wrapper { // starting point
     transition: opacity 0.5s ease-out;
     position: relative;
-    // min-height: 950px;
     height: 100%;
     
   }
   
   .fade__content {
-    // position: absolute;
     position: relative;
     width: 100%;
     height: 100%;
@@ -40,7 +30,7 @@ const Fade = (props) => (
     <div id={`fade-trigger--${props.identifier}`}></div>
     <Controller>
       <Scene
-        indicators={false}
+        indicators={true}
         triggerElement={`#fade-trigger--${props.identifier}`}
         duration="80%"
         triggerHook="0.85"

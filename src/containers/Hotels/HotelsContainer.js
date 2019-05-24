@@ -59,7 +59,7 @@ export class HotelsContainer extends Component {
               backgroundImg={backgroundImg}
 
               subheading="Hotels & resorts"
-              heading="Jumeirah around the world"
+              heading="Our hotels around the world"
               strapline="From Arabian palaces to sumptuous bungalows"
               isRTL={this.state.isRTL}
               lang={this.props.match.params.lang}

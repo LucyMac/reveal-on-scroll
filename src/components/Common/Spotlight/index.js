@@ -44,7 +44,7 @@ const Spotlight = props => {
                 'order-2': props.imageAlign == 'left', 
                 'order-1': props.imageAlign == 'right'
               })}>
-              <H1 options="smaller" className="pb-5">Jumeirah Beach Hotel</H1>
+              <H1 options="smaller" className="pb-5">Magical Beach Hotel</H1>
               <H3 className="pb-5" colour="white">The ultimate family resort</H3>
               <Text className="pb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit,  sed do eiusmod tempor incididunt ut labore et dolore  magna aliqua ut enim ad minim</Text>
               <button className="button button--secondary">Discover more</button>

@@ -63,35 +63,18 @@ export class HotelDetailContainer extends Component {
         />
 
         <FadeOut isRTL={this.props.isRTL} lang={this.props.lang} identifier="hero">
-          {this.props.match.params.lang === 'EN' &&
-            <Hero
-              video={true}
-              backgroundVideo={backgroundVideo}
-              videoPoster={videoPoster}
-              backgroundImg={backgroundImg}
-              subheading="hotel region"
-              heading="Luxury hotel name"
-              strapline="The holiday of a lifetime"
-              isRTL={this.state.isRTL}
-              lang={this.props.match.params.lang}
-              spacing="none"
-            />
-          }
-
-          {this.props.match.params.lang === 'AR' &&
-            <Hero
-              video={true}
-              backgroundVideo={backgroundVideo}
-              videoPoster={videoPoster}
-              backgroundImg={backgroundImg}
-              subheading="الإمارات العربية المتحدة"
-              heading="جميرا القصر ، دبي"
-              strapline="روعة ملكي القصر العربي الخاص بك"
-              isRTL={this.state.isRTL}
-              lang={this.props.match.params.lang}
-              spacing="none"
-            />
-          }
+          <Hero
+            video={true}
+            backgroundVideo={backgroundVideo}
+            videoPoster={videoPoster}
+            backgroundImg={backgroundImg}
+            subheading="hotel region"
+            heading="Luxury hotel name"
+            strapline="The holiday of a lifetime"
+            isRTL={this.state.isRTL}
+            lang={this.props.match.params.lang}
+            spacing="none"
+          />
         </FadeOut>
 
         <Fade isRTL={this.props.isRTL} lang={this.props.lang} identifier="promo" offset="100px">
